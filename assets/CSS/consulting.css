@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+header .consulting-top{
+    width: 100%;
+    display: flex;
+    background-color: #0D2D3E;
+    justify-content: center;
+    color: #fff;
+}
+header .consulting-top .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .consulting-top .container .clock{
+    display: flex;
+    padding: 10px;
+
+}
+
+ .socialMedia{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.consultingBottom{
+    width: 100%;
+   padding: 10px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.consultingBottom .container{
+    display: flex;
+    
+    width: 79%; 
+    justify-content: space-between;
+    align-items: center;
+}
+.imageBox{
+    width: 15%;
+}
+nav{
+    width: 30%;
+    
+display: flex;
+align-items: center;
+justify-content: center
+}
+nav ul{
+  
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.clock{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+
+
+
+
